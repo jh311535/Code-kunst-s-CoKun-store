@@ -27,7 +27,6 @@
 ### ✔ 현대 사회의 독서량 부족 문제 해결과 지식 함양을 목표로 한다.
 ### ✔ 주 소비층인 20, 30대를 겨냥하여 SNS 기능을 도입함으로써 젊은 사람들의 흥미를 유발 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하고, 자연스럽게 웹사이트 이용을 유도한다.
 ### ✔ 다양한 API를 활용하여 큐레이팅 서비스를 제공함으로 사용자 경험 개선과 안정적인 수익 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;모델을 보장한다.
-<br>   <br>
 
 <img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/82cd9e30-7096-4375-a581-4ecfa1d831ef" width="100%" height="100%">
 
