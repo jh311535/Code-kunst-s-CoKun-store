@@ -21,6 +21,16 @@
 
 * [프로젝트 시연](#-프로젝트-시연)
   - [메인화면](#메인화면)
+  - [로그인 및 회원가입](#로그인-및-회원가입)
+  - [카테고리 분류 및 검색](#카테고리-분류-및-검색)
+  - [책 상세 페이지](#책-상세-페이지)
+  - [장바구니](#장바구니)
+  - [책 주문](#책-주문)
+  - [게시판(자유, Q&A, 공지)](#게시판자유-qa-공지)
+  - [챗봇](#챗봇)
+  - [SNS 기능](#SNS-기능)
+  - [마이페이지](#마이페이지)
+  - [관리자 기능](#관리자-기능)
 
 <br>   <br>
 # ✅ 프로젝트 목표
@@ -82,6 +92,47 @@
 
 > ### 메인화면
 <img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/0ced69ac-86a8-4650-9ba7-fcb1188fb802" width="100%" height="100%">
+<br>   <br>
 
 > ### 로그인 및 회원가입
 <img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/bab4a7c3-fd65-4813-94ae-628857ebc517" width="100%" height="100%">
+<br>   <br>
+
+> ### 카테고리 분류 및 검색
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/8cc0dd7a-8e06-4d48-9560-832ddf908287" width="100%" height="100%">
+<br>   <br>
+
+> ### 책 상세 페이지
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/8e438306-7036-45c2-8a49-812e9324e2f6" width="100%" height="100%">
+<br>   <br>
+
+> ### 장바구니
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/30135975-1807-4f8e-aec8-4b040a58753c" width="100%" height="100%">
+<br>   <br>
+
+> ### 책 주문
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/578e4e41-248a-486c-aa10-95124a5a1a2a" width="100%" height="100%">
+<br>   <br>
+
+> ### 게시판(자유, Q&A, 공지)
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/38377a87-9d2e-468a-9603-d12688d260c2" width="100%" height="100%">
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/dbd3ac1e-fe2e-488b-be30-bf431608bbb7" width="100%" height="100%">
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/5df06a0f-32b9-4dd4-bbe4-ee79c860aabd" width="100%" height="100%">
+<br>   <br>
+
+> ### 챗봇
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/86de49da-6440-4e86-ad2c-4d6ddc27ea80" width="100%" height="100%">
+<br>   <br>
+
+> ### SNS 기능
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/4ca42352-efe4-4bdd-b391-fa73d1a30147" width="100%" height="100%">
+<br>   <br>
+
+> ### 마이페이지
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/9c9a848f-1938-4997-916a-f7c3c2d8b5a1" width="100%" height="100%">
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/8646fee5-b0c1-4201-9fe6-da6783c6db8c" width="100%" height="100%">
+<br>   <br>
+
+> ### 관리자 기능
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/c31518de-f529-4f83-b363-16118c94b44d" width="100%" height="100%">
+<br>   <br>
