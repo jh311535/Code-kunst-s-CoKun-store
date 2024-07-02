@@ -117,7 +117,7 @@
 > ### 게시판(자유, Q&A, 공지)
 <img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/38377a87-9d2e-468a-9603-d12688d260c2" width="100%" height="100%">
 <img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/dbd3ac1e-fe2e-488b-be30-bf431608bbb7" width="100%" height="100%">
-<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/5df06a0f-32b9-4dd4-bbe4-ee79c860aabd" width="100%" height="100%">
+<img src = "https://github.com/jh311535/Code-kunst-s-CoKun-store/assets/117789687/51a1a449-93c2-4811-8725-0e2d46c60bbc" width="100%" height="100%">
 <br>   <br>
 
 > ### 챗봇
