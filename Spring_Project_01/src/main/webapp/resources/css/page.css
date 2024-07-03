@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* 컨테이너 설정 */
+.main-container {
+	display: flex;
+	flex-direction: row; /* 가로 방향으로 정렬 */
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto; /* 가운데 정렬 */
+}
+
+/* 콘텐츠 영역 */
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+/* 베스트셀러 섹션 */
+.page {
+	margin-bottom: 20px;
+}
+
+
+.book-item {
+	box-shadow : 5px 5px 5px;
+	display: flex;
+	margin-bottom: 20px;
+	align-items: flex-start;
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 100%;
+	
+}
+.book-list {
+	display: flex;
+	flex-direction: column; /* 가로가 아닌 세로 배열 */
+}
+
+
+
+.book-item img {
+	width: 150px;
+	height: 220px;
+	margin-right: 20px;
+}
+
+.book-details {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.book-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.book-desc {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.book-price {
+	font-size: 14px;
+	color: #4CAF50;
+	margin-bottom: 10px;
+}
+
+.cart-btn {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.pagination {
+    margin-top: 20px;
+    white-space: nowrap;
+    text-align: center;
+    height: 37px;
+    line-height: 37px;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    border: 1px solid #f7f7f7;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #898989;
+    background: #f7f7f7;
+}
+
+.pagination .on,
+.pagination span {
+    color: #fff;
+    font-weight: bold;
+    background: #333;
+    border: 1px solid #333;
+}
+
+.pagination .prev,
+.pagination .next {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    background: #ebebeb url("") no-repeat center center;
+}
+
+.pagination .prev {
+    margin-right: 11px;
+}
+
+.pagination .next {
+    margin-left: 12px;
+}
+
+.pagination .prev.end,
+.pagination .next.end {
+    height: 35px;
+    width: 35px;
+    font-size: 0;
+    background: #ebebeb url("") no-repeat center center;
+}
+
+.pagination .prev.end {
+    margin-right: 4px;
+    border-right: 0;
+}
+
+.pagination .next.end {
+    margin-left: 4px;
+    border-left: 0;
+}
+
+
+
+.page h2 {
+	margin-bottom: 30px;
+	text-align: left;
+}

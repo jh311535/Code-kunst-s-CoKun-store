@@ -1,0 +1,365 @@
+/* General container styles */
+.container {
+    max-width: 1280px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+}
+
+/* 占쎈쐻占쎈솭占쎈솇占쎌굲占쎈쐻占쎈짗占쎌굲 */
+/* 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈솧筌뤿슣�굲 span占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈솂占쎈닰占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈솙占쎈섣占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+.book-price {
+        color: red;
+        font-weight: bold;
+    }
+
+.vertical-line {
+    border-left: 2px solid;
+    height: 50px;
+}
+
+/* 占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+.tabcontent {
+    display: none;
+    animation: fadeEffect 1s;
+    padding: 20px;
+    background-color: #e3f0f8; /* 占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+}
+
+.tabcontent .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tabcontent .product {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tabcontent .product img {
+    width: 100%;
+    height: auto;
+}
+
+.tabcontent .product p {
+    margin: 10px 0;
+}
+
+/* Fade in tabs */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* New CSS for the book slider */
+.book-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.book-slider-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.book-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.book-box {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f1f3f2;
+    height:250px;
+}
+
+.book-image {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.book-details {
+    flex: 1;
+}
+ .book-details > h3 {
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+.book-details h3 {
+    margin: 0 0 10px;
+}
+
+.book-details p {
+    margin: 5px 0;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.btn.prev {
+    left: 10px;
+}
+
+.btn.next {
+    right: 10px;
+}
+
+/* 占쎈쐻占쎈솭占쎈솇占쎌굲占쎈쐻占쎈짗占쎌굲 */
+.menu-bar {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu-bar .tablink {
+    background-color: #4CAF50; /* 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+    color: black;
+    border: none;
+    width:100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size:25px;
+    font-weight:bold;
+    text-shadow: 0px 0px 2px white;
+}
+
+.menu-bar .tablink:hover {
+    background-color:#45a049;
+}
+
+/* active 占쎄깻占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈솯�ⓦ끉�굲 */
+.menu-bar .tablink.active {
+   background:#e3f0f8; /* 占쎌넞占쎈쐻占쎈짗占쎌굲占쎌넅占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+}
+
+/* 占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+.tabcontent {
+    display: none;
+    animation: fadeEffect 1s;
+}
+
+/* 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈뼓占쎈솇占쎌굲 */
+.banner, .products {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner-inner, .products-inner {
+    display: flex;
+    justify-content: center; /* 占쎈쐻占쎈솯占쎈섣占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+    transition: transform 0.5s ease;
+}
+
+.banner img, .products .product img {
+    width: 100%;
+    height: auto;
+    max-width: 425px;
+    max-height: 659px;
+}
+
+.banner .btn, .products .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.banner .btn.prev, .products .btn.prev {
+    left: 10px;
+}
+
+.banner .btn.next, .products .btn.next {
+    right: 10px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.product {
+    text-align: center;
+    min-width: 200px;
+}
+
+/* 占쎈쐻占쎈뼓占쎈쿈占쎌굲占쎈쐻  占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 */
+@media (max-width: 768px) {
+    .banner img, .products .product img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner .btn, .products .btn {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .product {
+        min-width: 150px;
+    }
+}
+
+/* Fade in tabs */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    padding: 12px;
+    gap:16px;
+}
+
+.profile-page-review-item {
+	width:400px;
+    height: 182px;
+    padding: 11px;
+    background: var(--color-background);
+    border: 1px solid;
+    border-color:gray;
+    border-radius: 12px;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.left-arrow {
+    left: 0px;
+}
+
+.right-arrow {
+    right: 0px;
+}
+        
+        /* 異붽��쟻�씤 �뒪���씪留� */
+        .tabcontent {
+            display: none;
+        }
+        
+        .tablink {
+            cursor: pointer;
+        }
+        
+        .tablink.active {
+            background-color: #ddd;
+        }
+        
+        .product {
+            display: none;
+        }
+.review-book-pic{
+	width: 100%;
+	height: 100%;
+}
+.review-content{
+	display:flex;
+	max-height:177px;
+	margin-top: 12px;  /* �쐞履� 怨듬갚 */
+    margin-bottom: 12px;  /* �븘�옒履� 怨듬갚 */
+}
+.review-image{
+	position: relative;
+    flex-shrink: 0;
+    width: 57px;
+    height: 84px;
+    margin: 0 8px 0 0;
+    overflow: hidden;
+    background: var(--color-background10);
+    border-radius: 2px;
+}
+.profile-page-review{
+	    margin-top: 15px;  /* �쐞履� 怨듬갚 */
+    margin-bottom: 15px;  /* �븘�옒履� 怨듬갚 */
+}
+.book-title{
+	    display: inline-block;
+    max-width: 150px; /* �썝�븯�뒗 理쒕� �꼫鍮꾨줈 �꽕�젙 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom; 
+}
+.review-user_info{
+	    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.review-user_pic{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+}
+.review-user_Nick{
+	flex: 1;
+    margin: 0 2px 0 0;
+    overflow: hidden;
+    color: var(--color-primary-text);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.review-rating{
+    flex-shrink: 0;
+	
+}
+.review-star{
+	width: 13px;
+    height: 13px;
+    vertical-align: top;
+}
+.book-title{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bolder;
+}

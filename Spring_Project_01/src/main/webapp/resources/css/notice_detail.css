@@ -1,0 +1,39 @@
+body {
+	background-color: #f8f9fa;
+}
+
+.notice-container {
+	width: 80%;
+	background-color: #ffffff;
+	padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px; /* 컨테이너 위에 공백 추가 */
+	margin-bottom: 350px; /* 컨테이너 아래에 공백 추가 */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notice-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.notice-info {
+	margin-bottom: 20px;
+	color: #777;
+}
+
+.notice-content {
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+
+.notice-image {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.back-button {
+	margin-top: 20px;
+}

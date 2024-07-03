@@ -1,0 +1,233 @@
+@charset "UTF-8";
+.container {
+max-width: 1280px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.book-detail-container {
+display: flex;
+margin-top: 30px;
+}
+
+.book-image-detail {
+width: 250px;
+height: auto;
+}
+
+.book-details {
+margin-left: 30px;
+}
+
+.book-details > h1 {
+font-weight: bold;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.purchase-options {
+margin-left: 50px;
+background: #e3f0f8;
+align-self: center;
+padding: 30px;
+}
+
+.purchase-options button {
+display: block;
+margin: 10px 0;
+width: 150px;
+height: 50px;
+font-size: 18px;
+}
+
+.purchase-options .cart {
+background-color: red;
+color: white;
+}
+
+.purchase-options .buy {
+background-color: green;
+color: white;
+}
+
+.recommendedBook {
+background: #f1f3f2;
+text-align: center;
+width: auto;
+margin: 10px;
+padding: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-wrap: wrap;
+}
+
+.recommendedBook .product {
+width: 200px;
+margin: 15px;
+background-color: #fff;
+padding: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.recommendedBook img {
+width: 100%;
+height: auto;
+}
+
+.recommendedBook_detail p {
+font-weight: bolder;
+font-size: 12px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 100%;
+}
+
+/* 유튜브 비디오 */
+.youtube-videos {
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+background: #e3f0f8;
+padding: 20px;
+}
+
+.youtube-video {
+width: 30%;
+background-color: #fff;
+padding: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.youtube-video a {
+display: block;
+}
+
+.youtube-thumbnail {
+width: 100%;
+height: auto;
+}
+
+.youtube-video-detail p {
+font-weight: bolder;
+font-size: 14px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+/* 리뷰 리스트 컨테이너 스타일 */
+.review-list-container {
+margin-top: 20px;
+background-color: #f8f8f8; /* 회색 배경 추가 */
+padding: 20px;
+border-radius: 10px;
+}
+
+/* 리뷰 항목 스타일 */
+.page-review-item, .profile-page-review-item {
+position: relative;
+background-color: #e0e0e0;
+padding: 15px;
+margin: 10px 0;
+border-radius: 5px;
+display:flex;
+}
+
+.review-book-pic {
+margin-right: 20px;
+width: 150px; /* 원하는 크기로 조정하세요 */
+height: auto;
+object-fit: cover;
+}
+
+.page-review-item a, .profile-page-review-item a {
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+.review-book-pic {
+    margin-right: 30px;
+    width: 90px; /* 원하는 크기로 조정하세요 */
+    height: auto;
+}
+
+.page-review-item .rating, .profile-page-review-item .profile-page-rating {
+color: #ff9800;
+font-weight: bold;
+}
+
+/* 리뷰 삭제 및 수정 버튼 컨테이너 스타일 */
+.review-buttons {
+	position: absolute;
+	right:20px; /* 추가 */
+    bottom: 10px; /* 추가 */
+    margin-left: 10px; /* 추가 */
+}
+
+.review-buttons button {
+margin-left: 10px; /* 버튼 사이 간격 설정 */
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+background-color: #28a745;
+color: #fff;
+cursor: pointer;
+}
+
+.review-buttons button
+{
+background-color: #218838;
+}
+
+/* 리뷰 쓰기 버튼 스타일 */
+.review-write-btn {
+display: inline-block;
+padding: 10px 20px;
+margin: 10px 0;
+border: none;
+border-radius: 5px;
+background-color: #28a745;
+color: #fff;
+font-size: 16px;
+text-decoration: none;
+cursor: pointer;
+}
+
+.review-write-btn
+{
+background-color: #218838;
+}
+
+/* 페이지네이션 스타일 */
+.pagination {
+text-align: center;
+margin: 20px 0;
+}
+
+.pagination a {
+color: #007bff;
+text-decoration: none;
+margin: 0 5px;
+padding: 5px 10px;
+border: 1px solid #ddd;
+border-radius: 3px;
+}
+
+.pagination a.active {
+background-color: #007bff;
+color: #fff;
+border: 1px solid #007bff;
+}
+
+.pagination a:hover(.active) {
+background-color: #ddd;
+}
+.review-star{
+	width: 13px;
+    height: 13px;
+    vertical-align: top;
+}

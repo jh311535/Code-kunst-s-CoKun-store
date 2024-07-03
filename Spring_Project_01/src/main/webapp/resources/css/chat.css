@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Chat container */
+
+.mt-3 {
+    padding-bottom: 350px; /* 아래 너비 */
+}
+.chat-container {
+    max-width: 80%; /* 너비를 넓힘 */
+    margin: auto;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Chat messages */
+.chat-message {
+    display: flex;
+    flex-direction: column; /* 수직 정렬 */
+    align-items: flex-start; /* 왼쪽 정렬 기본 */
+    margin-bottom: 15px;
+}
+
+.chat-message.right {
+    align-items: flex-end; /* 오른쪽 정렬 */
+}
+
+.chat-message .message-text {
+    padding: 15px; /* 패딩을 키움 */
+    max-width: 70%; /* 너비를 줄임 */
+    font-size: 16px; /* 글씨 크기를 키움 */
+    position: relative;
+}
+
+.chat-message.left .message-text {
+    background: #e2e2e2;
+    color: #000;
+    border-radius: 15px 15px 15px 0;
+    margin-left: 10px;
+}
+
+.chat-message.right .message-text {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 15px 15px 0 15px;
+    margin-right: 10px;
+}
+
+.chat-message.left .message-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e2e2e2 transparent transparent;
+}
+
+.chat-message.right .message-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #4CAF50;
+}
+
+.message-info {
+    font-size: 14px; /* 글씨 크기를 키움 */
+    color: #aaa;
+    margin-bottom: 5px; /* 메시지 텍스트와의 간격 */
+    text-align: left; /* 기본 왼쪽 정렬 */
+}
+
+.message-info.right {
+    text-align: right; /* 오른쪽 정렬 */
+}
+
+/* Input area */
+.chat-input {
+    display: flex;
+    align-items: center;
+    max-width: 80%; /* 너비를 넓힘 */
+    margin: 20px auto;
+}
+
+.chat-input .input-group {
+    width: 100%;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 15px; /* 패딩을 키움 */
+    border: 1px solid #ddd;
+    border-radius: 25px 0 0 25px;
+    border-right: none;
+    font-size: 16px; /* 글씨 크기를 키움 */
+}
+
+.chat-input .input-group-append button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 16px; /* 글씨 크기를 키움 */
+}
+
+.chat-input .input-group-append button:hover {
+    background: #45a049;
+}
+
+
+
+

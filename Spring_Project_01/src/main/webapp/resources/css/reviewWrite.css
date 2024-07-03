@@ -1,0 +1,79 @@
+.review-write-body {
+    font-family: Arial, sans-serif;
+}
+
+.review-write-container {
+    width: 800px;
+    height: auto; /*    ̸   ڵ           */
+    margin: 20px auto;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group-textarea {
+    display: flex;
+    flex-direction: column;
+        height: 300px;
+}
+
+.form-group-textarea textarea {
+    flex: 1;
+    height: 300px; /*    ̸   ø  */
+    resize: none;
+    margin-bottom: 10px; /*       ߰  */
+}
+
+.form-group-textarea button {
+    align-self: flex-end; /*             */
+    height: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group-textarea button:hover {
+    background-color: #0056b3;
+}
+
+.card .form-group label {
+    font-weight: bold;
+}
+
+.card .form-group .form-control {
+    font-size: 16px;
+}
+
+.card .form-group .form-control::placeholder {
+    color: #6c757d;
+}
+
+.card .form-group .form-control-rating {
+    font-size: 16px;
+    height: auto;
+    padding: 5px;
+}

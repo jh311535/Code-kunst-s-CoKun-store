@@ -1,0 +1,98 @@
+body {
+	background-color: white;
+}
+
+.list-container {
+	width: 80%; background-color : #ffffff;
+	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 350px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px; /* 컨테이너 위에 공백 추가 */
+    margin-bottom: 100px; /* 컨테이너 위에 공백 추가 */
+}
+
+.list-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.notice-search-bar {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.notice-search-bar form {
+	display: flex;
+	align-items: center;
+}
+
+.notice-search-bar input[type="text"] {
+	width: 300px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.notice-search-bar input[type="submit"] {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 4px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.notice-sort-options {
+	margin-bottom: 20px;
+}
+
+.notice-list {
+	margin-bottom: 20px;
+}
+
+.btn-primary, .page-link {
+	background-color: #28a745;
+	border-color: #28a745;
+}
+
+.btn-primary:hover, .page-link:hover {
+	background-color: #218838;
+	border-color: #1e7e34;
+}
+
+.pagination .active .page-link {
+	background-color: #218838;
+	border-color: #1e7e34;
+	color: #ffffff;
+}
+
+.pagination .page-link {
+	background-color: #ffffff;
+	color: #28a745;
+}
+
+.pagination .disabled .page-link {
+	color: #6c757d;
+}
+
+.btn-link-active {
+	color: #28a745 !important;
+	font-weight: bold;
+}
+
+.btn-link-inactive {
+	color: #6c757d !important;
+}
+
+.title-link {
+	color: #28a745;
+}

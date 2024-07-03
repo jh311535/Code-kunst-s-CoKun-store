@@ -1,0 +1,198 @@
+.container123 {
+	max-width: 1280px !important;
+	padding: 20px !important;
+	background: white !important;
+	margin: 0 auto !important;
+}
+
+.top123 {
+	float: right !important;
+}
+
+.search-bar123 a {
+	font-weight: bold !important;
+}
+
+.header .menu a {
+	font-weight: bold !important;
+}
+
+.nav-menu123 a {
+	font-weight: bold !important;
+}
+
+.nav-link123 a {
+	font-weight: bold !important;
+}
+
+body, ul, li {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+	/* 해당 태그의 list-style을 none으로 하는 것으로 ●을 제거한다 */
+}
+
+.header123 {
+	background-color: #f8f8f8 !important;
+	padding: 5px 20px !important;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	flex-direction: row-reverse !important;
+}
+
+.header123 .menu123 {
+	display: flex !important;
+	gap: 0px !important;
+	margin: 0 !important;
+	list-style: none !important;
+}
+
+.header123 .menu123 a {
+	text-decoration: none !important;
+	color: #333 !important;
+	margin-left: 10px !important;
+}
+
+.header123 .menu123 a:not(:last-child)::after {
+	content: '|' !important;
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+	color: #cdcdcd !important;
+}
+
+.header123 .logo123 {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.header123 .logo123 img {
+	max-height: 50px !important;
+	margin-right: 20px !important;
+}
+
+
+
+.search-bar123 {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	padding: 10px !important;
+	background-color: #fff !important;
+}
+
+.search-bar123 .logo123 {
+	margin-right: 15px !important;
+	margin-left: 190px !important;
+}
+
+.search-bar123 form {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.search-bar123 input[type="text"] {
+	padding: 12px !important;
+	border-radius: 80px 80px 80px 80px/80px 80px 80px 80px !important;
+	border-style: solid !important;
+	border-width: 3px !important;
+	border-color: #4CAF50 !important;
+}
+
+.search-bar123 input[type="image"] {
+	border: none !important;
+	border-radius: 4px !important;
+	color: white !important;
+	cursor: pointer !important;
+	margin-left: 10px !important;
+	transform: translateX(-70px) !important;
+}
+
+.nav-menu123 {
+	display: flex !important;
+	justify-content: center !important;
+	background-color: #4CAF50 !important;
+	position: relative !important;
+}
+
+.nav-menu123 a {
+	color: white !important;
+	text-decoration: none !important;
+	font-weight: bold !important;
+	text-shadow: 2px 2px 2px black !important;
+	padding: 10px 20px !important;
+	height: 100% !important;
+	line-height: 1.5 !important;
+	display: flex !important;
+	align-items: center !important;
+	font-size: 20px !important;
+	transition: background 0.3s ease !important;
+}
+
+.nav-menu123 a:hover {
+	background: linear-gradient(#4CAF50, #4CAF50, #4CAF50, #9acd32)
+		!important;
+}
+
+.nav-menu123 .dropdown123 {
+	position: relative !important;
+	display: inline-block !important;
+}
+
+.nav-menu123 .dropdown-content123 {
+	display: none !important;
+	position: absolute !important;
+	background-color: #f9f9f9 !important;
+	min-width: 160px !important;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+	z-index: 1 !important;
+}
+
+.nav-menu123 .dropdown-content123 a {
+	color: black !important;
+	padding: 12px 16px !important;
+	text-decoration: none !important;
+	display: block !important;
+	transition: background 0.3s ease !important;
+}
+
+.nav-menu123 .dropdown-content123 a:hover {
+	background: linear-gradient(45deg, #ff6b6b, #f06595) !important;
+}
+
+.nav-menu123 .dropdown:hover123 .dropdown-content123 {
+	display: block !important;
+}
+
+.nav-menu123 .dropdown:hover123 a {
+	background: linear-gradient(45deg, #4CAF50, #2E7D32) !important;
+}
+
+.card-footer777 {
+	text-align: center !important; /* 부모 컨테이너를 가운데 정렬 */
+}
+
+.pagination {
+	display: inline-flex !important; /* 자식 요소를 가로로 배치 */
+	justify-content: center !important; /* 자식 요소들을 가운데 정렬 */
+	width: 100% !important; /* 부모 컨테이너의 전체 너비 사용 */
+}
+
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+.search-bar123{
+	width: 435px;
+}
+
+.search-text123{
+	width: 380px;
+	height: 45px;
+}

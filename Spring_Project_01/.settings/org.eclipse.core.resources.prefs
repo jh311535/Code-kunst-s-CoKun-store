@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/kr/co/soldesk/beans/FindIdUserBean.java=UTF-8
+encoding//src/main/java/kr/co/soldesk/beans/ProfileBean.java=UTF-8
+encoding//src/main/java/kr/co/soldesk/service/TopMenuService.java=UTF-8
+encoding//src/main/webapp/WEB-INF/properties/error_message.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/main.jsp=UTF-8
+encoding//src/main/webapp/resources/css/main.css=UTF-8
+encoding//src/main/webapp/resources/css/myprofile.css=UTF-8
+encoding//src/main/webapp/resources/css/reviewWrite.css=UTF-8
